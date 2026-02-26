@@ -10,23 +10,34 @@
     <main class="main-container">
       <header class="header">
         <div class="search-section">
-          <div>
-            <button>Search</button>
-            <input type="text" />
+          <div class="left-header">
+            <button class="search-btn">
+              <img
+                src="./assets/images/magnify.svg"
+                alt="search-icon"
+                class="search-icon"
+              />
+            </button>
+            <input type="text" name="search-input" class="search-input" />
           </div>
-          <div>
-            <span>notif-logo</span>
-            <span>profile-icon</span>
-            <p>Username</p>
-          </div>
-        </div>
-        <div class="profile-section">
-          <p>Hi there,</p>
-          <div>
-            <p>Morgan Oakley (@morgan)</p>
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+
+          <div class="right-header">
+            <button class="notif-btn">
+              <img
+                src="./assets/images/bell-ring.svg"
+                alt="notif-icon"
+                class="notif-icon"
+              />
+            </button>
+
+            <div class="profile-container">
+              <img
+                src="./assets/images/account.svg"
+                alt="account-icon"
+                class="account-icon"
+              />
+              <p>Morgan Oakley</p>
+            </div>
           </div>
         </div>
       </header>

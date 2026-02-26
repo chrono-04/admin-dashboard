@@ -26,6 +26,72 @@ body {
   grid-column: 2 / 3;
 }
 
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-container > p {
+  font-weight: 700;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 60%;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.search-btn,
+.notif-btn,
+.account-icon {
+  border: none;
+  background-color: white;
+}
+
+.notif-btn {
+  margin-right: 16px;
+}
+
+.search-icon,
+.notif-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.account-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e1e7f0;
+  width: 100%;
+}
+
 .sidebar {
   border: 2px solid blue;
   grid-row: 1 / 3;
