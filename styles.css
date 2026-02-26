@@ -17,7 +17,7 @@ body {
   width: 80%;
   height: 100%;
   display: grid;
-  grid-template-columns: 150px 9fr;
+  grid-template-columns: 200px 9fr;
   grid-template-rows: 150px 9fr;
 }
 
@@ -34,4 +34,25 @@ body {
 .main-content {
   border: 2px solid orangered;
   grid-column: 2 / 3;
+  height: 100%;
+}
+
+/*SIDEBAR*/
+
+.dashboard-text {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+.sidebar > ul {
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
 }
