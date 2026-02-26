@@ -18,12 +18,15 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: 250px 9fr;
-  grid-template-rows: 150px 9fr;
+  grid-template-rows: 120px 9fr;
 }
 
 .header {
   border: 2px solid green;
   grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .search-icon {
@@ -60,6 +63,27 @@ body {
   display: flex;
   align-items: center;
   margin-right: 10px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+  margin-bottom: 10px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.action-btn {
+  background-color: #1f91d3;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
 }
 
 .search-btn,
