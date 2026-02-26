@@ -17,7 +17,7 @@ body {
   width: 80%;
   height: 100%;
   display: grid;
-  grid-template-columns: 200px 9fr;
+  grid-template-columns: 250px 9fr;
   grid-template-rows: 150px 9fr;
 }
 
@@ -43,16 +43,42 @@ body {
   font-size: 1.3rem;
   margin-bottom: 25px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-logo {
+  width: 32px;
+  height: 32px;
 }
 
 .sidebar {
   padding: 20px;
+  background-color: #1f91d3;
+  color: white;
 }
 
 .sidebar > ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 li > a {
   text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.nav > li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
 }
