@@ -192,3 +192,27 @@ li > a {
   border: 2px solid greenyellow;
   grid-row: 1 / 3;
 }
+
+.project-title-text {
+  padding: 20px 10px;
+  font-weight: 700;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.card {
+  padding: 20px 10px 30px 10px;
+  border-left: 10px solid #f0b32d;
+  border-right: 2px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card > .card-title {
+  font-weight: 700;
+}
